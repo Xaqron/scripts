@@ -15,6 +15,6 @@ sudo autoremove
 sudo autoclean
 
 echo
-echo "Successfully installed:"
+echo -e "\033[32m Successfully installed:"
 echo $(gcc --version)
 echo

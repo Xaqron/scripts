@@ -27,5 +27,5 @@ echo $CMD | grep -o 'sudo.*'
 echo
 echo "PM2 version $(pm2 -v) installed successfully."
 echo
-echo "*** Node.js + NPM + PM2 installed successfully! ***"
+echo -e "\033[32m *** Node.js + NPM + PM2 installed successfully! ***""
 echo

@@ -32,7 +32,7 @@ LTS=$(pyenv install -l | grep '[[:space:]][[:digit:]].[[:digit:]].[[:digit:]]$' 
 pyenv install $LTS
 pyenv global $LTS
 
-echo $(python -V) successfully installed in \"$(which python)\"
+echo -e "\033[32m $(python -V) successfully installed in \"$(which python)\""
 echo
 
 pip install --upgrade pip
@@ -57,6 +57,6 @@ echo "- Set vscode \"python.pythonPath\" to output of \"which python\" command."
 echo "- Set vscode \"python.venvPath\" to \"/home/user/.pyenv/versions/v.v.v/envs\"."
 echo "* For a new project in vscode edit \"launch.json\" and set \"stopOnEntry\": false"
 echo
-echo "Rebooting in 10 seconds..."
+echo -e "\033[33m Done! Rebooting in 10 seconds..."
 sleep 10
 sudo reboot
