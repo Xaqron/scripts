@@ -1,3 +1,15 @@
+# install-gcc.sh
+
+This bash script automatically:
+
+* Installs GCC v7.
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-gcc.sh | bash
+```
+
 # install-node.sh
 
 This bash script automatically:
