@@ -1,8 +1,20 @@
+# install-ansible.sh
+
+This bash script automatically:
+
+* Installs [ansible](https://www.ansible.com) on control machine.
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-ansible.sh | bash
+```
+
 # install-docker.sh
 
 This bash script automatically:
 
-* Installs [docker](https://www.docker.com/).
+* Installs [docker](https://www.docker.com).
 
 ## Usage
 

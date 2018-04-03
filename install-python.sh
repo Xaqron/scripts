@@ -32,7 +32,7 @@ LTS=$(pyenv install -l | grep '[[:space:]][[:digit:]].[[:digit:]].[[:digit:]]$' 
 pyenv install $LTS
 pyenv global $LTS
 
-echo -e "\033[32m $(python -V) successfully installed in \"$(which python)\""
+echo -e "\033[32m $(python -V) installed successfully in \"$(which python)\""
 echo
 
 pip install --upgrade pip

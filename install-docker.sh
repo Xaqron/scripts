@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install -y docker-ce
 
 echo
-echo -e "\033[32m Docker successfully installed."
+echo -e "\033[32m Docker installed successfully."
 tput sgr0
 
 # if [ $1 = "-t" ]; then
