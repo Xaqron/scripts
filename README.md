@@ -1,3 +1,15 @@
+# install-docker.sh
+
+This bash script automatically:
+
+* Installs [docker](https://www.docker.com/).
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-docker.sh | bash
+```
+
 # install-gcc.sh
 
 This bash script automatically:
