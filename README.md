@@ -67,3 +67,15 @@ This bash script automatically:
 ```bash
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | bash
 ```
+
+# install-wireshark.sh
+
+This bash script automatically:
+
+* Installs [wireshark](https://www.wireshark.org).
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-wireshark.sh | bash
+```
