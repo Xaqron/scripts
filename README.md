@@ -34,6 +34,18 @@ This bash script automatically:
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-gcc.sh | bash
 ```
 
+# install-i2p.sh
+
+This bash script automatically:
+
+* Installs [I2P](https://geti2p.net) on control machine.
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-i2p.sh | bash
+```
+
 # install-node.sh
 
 This bash script automatically:
