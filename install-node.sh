@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 echo "Installing NVM + Node.js + NPM + PM2 + Requirements..."
 echo "Installing Requirements..."
 sudo apt install -y build-essential libssl-dev python-software-properties

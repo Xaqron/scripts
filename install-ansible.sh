@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing Ansible on control machine..."
 echo
 sudo apt-add-repository -y ppa:ansible/ansible

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing wireshark packet capture..."
 echo
 echo 'deb http://ppa.launchpad.net/wireshark-dev/stable/ubuntu $(lsb_release -cs) main' | sudo tee /etc/apt/sources.list.d/wireshark.list > /dev/null

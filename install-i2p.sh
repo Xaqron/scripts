@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing I2P..."
 echo
 sudo apt-add-repository -y ppa:i2p-maintainers/i2p
