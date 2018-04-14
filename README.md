@@ -80,6 +80,28 @@ This bash script automatically:
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | bash
 ```
 
+# install-shadowsocks.sh
+
+This bash script automatically:
+
+* Installs [shadowsocks](https://shadowsocks.org) and configure it.
+
+* Generates client configuration file.
+
+## Usage (Server)
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-shadowsocks.sh | bash
+```
+
+## Usage (Client)
+
+* Download generated config file from your server. You can find it at home directory as `shadowsocks.json`
+
+* [Download](https://shadowsocks.org/en/download/clients.html) shadowsocks client.
+
+* Import `shadowsocks.json` into client.
+
 # install-wireshark.sh
 
 This bash script automatically:
