@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # *** NOT TESTED ***
 # TODO: TEST & DEBUG

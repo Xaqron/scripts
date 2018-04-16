@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "Installing NVM + Node.js + NPM + PM2 + Requirements..."
 echo "Installing Requirements..."

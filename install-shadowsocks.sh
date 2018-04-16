@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing requirements..."
 sudo apt install -y pwgen
 sudo apt install -y python3-pip

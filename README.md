@@ -112,7 +112,7 @@ curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-shadows
 
 * [Download](https://shadowsocks.org/en/download/clients.html) shadowsocks client.
 
-* Import `shadowsocks.json` into client.
+* Import `shadowsocks.json` into the client.
 
 # install-wireshark.sh
 
