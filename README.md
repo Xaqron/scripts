@@ -46,6 +46,18 @@ This bash script automatically:
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-i2p.sh | bash
 ```
 
+# install-mkvtoolnix.sh
+
+This bash script automatically:
+
+* Installs [mkvtoolnix](https://mkvtoolnix.download).
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-mkvtoolnix.sh | bash
+```
+
 # install-node.sh
 
 This bash script automatically:
