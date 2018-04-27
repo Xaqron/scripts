@@ -58,6 +58,18 @@ This bash script automatically:
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-mkvtoolnix.sh | bash
 ```
 
+# install-mongo.sh
+
+This bash script automatically:
+
+* Installs  MongoDB Community Edition.
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-mongo.sh | bash
+```
+
 # install-node.sh
 
 This bash script automatically:
