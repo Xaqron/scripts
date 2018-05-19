@@ -59,6 +59,4 @@ echo "- Set vscode \"python.pythonPath\" to output of \"which python\" command."
 echo "- Set vscode \"python.venvPath\" to \"/home/user/.pyenv/versions/v.v.v/envs\"."
 echo "* For a new project in vscode edit \"launch.json\" and set \"stopOnEntry\": false"
 echo
-echo -e "\033[33m Done! Rebooting in 10 seconds..."
-sleep 10
-sudo reboot
+echo -e "\033[33m Done!"

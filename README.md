@@ -34,6 +34,18 @@ This bash script automatically:
 curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-gcc.sh | bash
 ```
 
+# install-go.sh
+
+This bash script automatically:
+
+* Installs [golang](https://golang.org).
+
+## Usage
+
+```bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-go.sh | bash -i
+```
+
 # install-i2p.sh
 
 This bash script automatically:
@@ -101,7 +113,7 @@ This bash script automatically:
 ## Usage
 
 ```bash
-curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | bash
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | bash -i
 ```
 
 # install-shadowsocks.sh
