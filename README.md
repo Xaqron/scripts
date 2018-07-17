@@ -43,7 +43,7 @@ This bash script automatically:
 ## Usage
 
 ```bash
-curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-go.sh | bash -i
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-go.sh | source
 ```
 
 # install-i2p.sh
@@ -113,7 +113,7 @@ This bash script automatically:
 ## Usage
 
 ```bash
-curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | bash -i
+curl -o- https://raw.githubusercontent.com/Xaqron/scripts/master/install-python.sh | source
 ```
 
 # install-shadowsocks.sh
